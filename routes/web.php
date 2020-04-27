@@ -19,4 +19,4 @@ Route::get('/', 'HomeController@homeIndex');
 
 /*===== Backend Part =====*/
 Route::get('/admin', 'AdminController@homeIndex');
-Route::get('/visitor', 'Backend\VisitorController@visitorIndex');
+Route::get('/visitor', 'VisitorController@visitorIndex');
