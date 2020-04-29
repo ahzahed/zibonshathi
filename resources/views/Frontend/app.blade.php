@@ -23,9 +23,9 @@
     </div> -->
     <!--Preloader part end -->
 
-    @include('Frontend.menu')
+    
 
-    @yield('content')
+    @yield('hcontent')
 
 
     <script src="{{ asset('Frontend/js/jquery-1.12.4.min.js') }}"></script>

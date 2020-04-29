@@ -14,9 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 /*===== Frontend Part ====*/
 
-Route::get('/', 'HomeController@homeIndex');
+Route::get('/', 'HomePageController@homeIndex');
 
 
 /*===== Backend Part =====*/
 Route::get('/admin', 'AdminController@homeIndex');
 Route::get('/visitor', 'VisitorController@visitorIndex');
+
+Auth::routes();
+
+Route::get('/profile', 'ProfileViewController@index')->name('profile');

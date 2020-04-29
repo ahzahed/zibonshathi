@@ -10,7 +10,18 @@
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Todays Visitor <span class="badge badge-secondary">20</span></h6>
+              <h6 class="m-0 font-weight-bold text-primary">Todays Visitor
+                @forelse($visitorData as $visitorDataa)
+                <span class="badge badge-secondary">
+                {{ $loop->count }}
+                @break
+            </span>
+            @empty
+            <span class="badge badge-danger">
+                No user today
+            </span>
+                 @endforelse
+            </h6>
             </div>
             <div class="card-body">
               <div class="table-responsive">

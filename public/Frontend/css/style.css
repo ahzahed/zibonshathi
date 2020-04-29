@@ -283,7 +283,7 @@ img{
   opacity: 1;
   margin-top: -80px;
   margin-bottom: 20px;
-  
+
 }
 
 .team-img:hover .overlay {
@@ -397,11 +397,11 @@ button:focus {
 	  transform: translateY(-50px)translateX(-50%)scale(1);
 	  opacity: 1;
 	}
-     
+
   100% {
 	  transform: translateY(0px)translateX(-50%)scale(1.4);
 	  opacity: 0.0
-    
+
   }
 }
 /*==============================================About part start========================================*/
@@ -492,7 +492,7 @@ button:focus {
 @keyframes aaa{
     0%{
         left: -110%;
-        top: 90%; 
+        top: 90%;
     }
     50%{
         left: 10%;
@@ -500,7 +500,7 @@ button:focus {
     }
     100%{
         top: -10%;
-        left: -10%;  
+        left: -10%;
     }
 }
 /*=============================================Service part start=======================================*/
@@ -626,7 +626,7 @@ button:focus {
   background: none;
 }
 .button:focus {
-	 outline: none; 
+	 outline: none;
 }
 .button:active,
 .button.is-checked {
@@ -711,12 +711,12 @@ button:focus {
     cursor: pointer;
     font-size: 24px;
     top: 50%;
-    transform: translateY(-50%);    
+    transform: translateY(-50%);
     transition: all linear .3s;
     padding: 10px 15px;
     z-index: 9;
     border: 1px solid #3084ca;
-    
+
 }
 
 .testim .arrow:before {
@@ -755,7 +755,7 @@ button:focus {
     border-radius: 50%;
     border: 1px solid #3084ca;
     margin: 0 10px;
-    cursor: pointer;   
+    cursor: pointer;
     transition: all .5s ease-in-out;
     position: relative;
 }
@@ -766,10 +766,10 @@ button:focus {
     border-color: #3084ca;
 }
 
-.testim .dots .dot.active {  
-    animation: testim-scale .5s ease-in-out forwards;   
+.testim .dots .dot.active {
+    animation: testim-scale .5s ease-in-out forwards;
 }
-    
+
 .testim .cont {
     position: relative;
     overflow: hidden;
@@ -787,13 +787,13 @@ button:focus {
 .testim .cont > div.inactive {
     opacity: 1;
 }
-    
+
 
 .testim .cont > div.active {
     position: relative;
     opacity: 1;
 }
-    
+
 
 .testim .cont div .img img {
     display: block;
@@ -834,28 +834,28 @@ button:focus {
     font-family: osr;
     padding: 0 190px;
 }
-.testim .cont div.active .img img {           
-    animation: testim-show .5s ease-in-out forwards;            
+.testim .cont div.active .img img {
+    animation: testim-show .5s ease-in-out forwards;
 }
 
-.testim .cont div.active h4 {    
-    animation: testim-content-in .4s ease-in-out forwards;    
+.testim .cont div.active h4 {
+    animation: testim-content-in .4s ease-in-out forwards;
 }
 
-.testim .cont div.active p {   
-    animation: testim-content-in .5s ease-in-out forwards;    
+.testim .cont div.active p {
+    animation: testim-content-in .5s ease-in-out forwards;
 }
 
-.testim .cont div.inactive .img img {           
-    animation: testim-hide .5s ease-in-out forwards;            
+.testim .cont div.inactive .img img {
+    animation: testim-hide .5s ease-in-out forwards;
 }
 
-.testim .cont div.inactive h4 {       
-    animation: testim-content-out .4s ease-in-out forwards;        
+.testim .cont div.inactive h4 {
+    animation: testim-content-out .4s ease-in-out forwards;
 }
 
-.testim .cont div.inactive p {  
-    animation: testim-content-out .5s ease-in-out forwards;    
+.testim .cont div.inactive p {
+    animation: testim-content-out .5s ease-in-out forwards;
 }
 
 @keyframes testim-scale {
@@ -864,15 +864,15 @@ button:focus {
     }
 
     35% {
-        box-shadow: 0px 0px 10px 5px #eee;        
+        box-shadow: 0px 0px 10px 5px #eee;
     }
 
     70% {
-        box-shadow: 0px 0px 10px 5px #2bcbba;        
+        box-shadow: 0px 0px 10px 5px #2bcbba;
     }
 
     100% {
-        box-shadow: 0px 0px 0px 0px #2bcbba;        
+        box-shadow: 0px 0px 0px 0px #2bcbba;
     }
 }
 
@@ -881,10 +881,10 @@ button:focus {
         opacity: 0;
         transform: translateY(100%);
     }
-    
+
     to {
         opacity: 1;
-        transform: translateY(0);        
+        transform: translateY(0);
     }
 }
 
@@ -893,10 +893,10 @@ button:focus {
         opacity: 1;
         transform: translateY(0);
     }
-    
+
     to {
         opacity: 0;
-        transform: translateY(-100%);        
+        transform: translateY(-100%);
     }
 }
 
@@ -905,19 +905,19 @@ button:focus {
         opacity: 0;
         transform: scale(0);
     }
-    
+
     to {
         opacity: 1;
-        transform: scale(1);       
+        transform: scale(1);
     }
 }
 
 @keyframes testim-hide {
     from {
         opacity: 1;
-        transform: scale(1);       
+        transform: scale(1);
     }
-    
+
     to {
         opacity: 0;
         transform: scale(0);
@@ -1030,13 +1030,13 @@ button:focus {
 	padding-right: 1.6rem;
 	padding-left: 1.6rem;
 	padding-bottom: 1.6rem;
-}	 
+}
 .card__author {
     position: relative;
 }
 .card__author-content {
     display: inline-block;
-   
+
 }
 .card__author img{
     border-radius: 50%;
@@ -1045,7 +1045,7 @@ button:focus {
 
 .card__share {
 	position: relative;
-	
+
 }
 .card__social {
 	position: absolute;
@@ -1083,12 +1083,12 @@ button:focus {
 	transition: all 0.3s ease;
 	outline: 0;
     padding: 0 5px;
-	box-shadow: 
+	box-shadow:
     0 2px 4px rgba(0,0,0, 0.12),
     0 2px 4px rgba(0,0,0, 0.24);
 }
 .share-icon:hover,.share-icon:focus {
-    box-shadow: 
+    box-shadow:
     0 3px 6px rgba(0,0,0, 0.12),
     0 3px 6px rgba(0,0,0, 0.24);
     -webkit-transform: scale(1.2);
@@ -1098,10 +1098,10 @@ button:focus {
     transform: scale(1.2);
 }
 .facebook {
-	background-color: #3b5998; 
+	background-color: #3b5998;
 }
 .twitter {
-	background-color: #00abe3; 
+	background-color: #00abe3;
 }
 .googleplus {
 	background-color: #d3492c;
@@ -1217,8 +1217,8 @@ button:focus {
 }
 @keyframes bulb {
 	0%{
-		-webkit-transform: scale(0.8); 
-				transform: scale(0.8); 
+		-webkit-transform: scale(0.8);
+				transform: scale(0.8);
 		opacity: 0.7;
 	}
 	100%{
@@ -1297,7 +1297,7 @@ button:focus {
 .mrr{
     margin-bottom: 17px;
 }
-.form-control:focus {
+/* .form-control:focus {
     box-shadow: none;
     border-color: #3084ca;
 }
@@ -1313,12 +1313,12 @@ textarea.form-control{
 	height: 150px;
     resize: none;
     margin-bottom: 50px;
-}
+} */
 .contact-mess .btn{
     text-align: center;
     position: relative;
 }
-.btn-primary{
+/* .btn-primary{
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -1335,7 +1335,7 @@ textarea.form-control{
 	color: #fff;
 	background-color: #cb4561;
 	border-color: #3084ca;
-}
+} */
 /*========================================Back to top button part start=================================*/
 .back-to-top{
     position: fixed;
