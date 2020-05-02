@@ -1,35 +1,23 @@
 /*=======================================Extra small device===========================================*/
 @media(max-width:575px){
     .navbar-light .navbar-toggler {
-        border-color: transparent;
+        border-color: #f35c00;
     }
     button:focus {
         outline: 0;
     }
     .navbar-toggler i{
-        color: #fff;
+        color: #f35c00;
         font-size: 24px;
     }
     .navbar-collapse {
-        background: #222;
+        background: #f35c00;
         text-align: center;
         padding-top: 10px;
     }
-    .banner-content {
-        margin-left: 0px;
-        text-align: center;
-    }
-    .banner-content h1 {
-        font-size: 30px;
-    }
-    .banner-content p {
-        padding-bottom: 0px;
-        padding-right: 0;
-        font-size: 18px;
-    }
-    #banner {
-        padding: 150px 0 130px;
-    }
+    .carousel-inner img{
+        height: 300px;
+      }
     .mrrr{
         margin-left: 0px;
     }
@@ -376,17 +364,17 @@
 /*==========================================Small Device========================================*/
 @media(min-width:576px) and (max-width:767px){
     .navbar-light .navbar-toggler {
-        border-color: transparent;
+        border-color: #f35c00;
     }
     button:focus {
         outline: 0;
     }
     .navbar-toggler i{
-        color: #fff;
+        color: #f35c00;
         font-size: 24px;
     }
     .navbar-collapse {
-        background: #222;
+        background: #f35c00;
         text-align: center;
         padding-top: 10px;
     }
@@ -404,12 +392,9 @@
         text-align: center;
         margin-left: 0px;
     }
-    .banner-content h1 {
-        font-size: 54px;
-    }
-    #banner {
-        padding: 150px 0 140px;
-    }
+    .carousel-inner img{
+        height: 300px;
+      }
     #about {
         padding-top: 75px;
     }
@@ -566,17 +551,17 @@
 /*============================================Medium device====================================*/
 @media(min-width:768px) and (max-width:991px){
     .navbar-light .navbar-toggler {
-        border-color: transparent;
+        border-color: #f35c00;
     }
     button:focus {
         outline: 0;
     }
     .navbar-toggler i{
-        color: #fff;
+        color: #f35c00;
         font-size: 24px;
     }
     .navbar-collapse {
-        background: #222;
+        background: #f35c00;
         text-align: center;
         padding-top: 10px;
     }
@@ -586,16 +571,9 @@
         margin-bottom: 10px;
         margin-top: 10px;
     }
-    .banner-content {
-        margin-left: 0px; 
-        text-align: center;
-    }
-    .banner-content h1 {
-        font-size: 56px;
-    }
-    #banner {
-        padding: 150px 0 140px;
-    }
+    .carousel-inner img{
+        height: 350px;
+      }
     .mrrr {
         margin-left: 0px;
         text-align: center;

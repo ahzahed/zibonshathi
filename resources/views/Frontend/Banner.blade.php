@@ -1,5 +1,5 @@
 <!-- Slider with search start-->
-<section style="padding-top: 76px;">
+<section style="padding-top: 80px;">
   <div
     id="carouselExampleFade"
     class="carousel slide carousel-fade"
@@ -7,28 +7,13 @@
   >
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img
-        src="{{ asset('Frontend/images/zh3.jpg')}}"
-          class="d-block w-100"
-          style="height: 500px;"
-          alt="..."
-        />
+        <img src="Frontend/images/zh4.jpg" class="d-block w-100" alt="..." />
       </div>
       <div class="carousel-item">
-        <img
-        src="{{ asset('Frontend/images/zh4.jpg')}}"
-          class="d-block w-100"
-          style="height: 500px;"
-          alt="..."
-        />
+        <img src="Frontend/images/zh3.jpg" class="d-block w-100" alt="..." />
       </div>
       <div class="carousel-item">
-        <img
-        src="{{ asset('Frontend/images/zh1.jpg')}}"
-          class="d-block w-100"
-          style="height: 500px;"
-          alt="..."
-        />
+        <img src="Frontend/images/zh1.jpg" class="d-block w-100" alt="..." />
       </div>
     </div>
     <a
@@ -51,6 +36,7 @@
     </a>
   </div>
 </section>
+
 <section class="search-sec">
   <div class="container">
     <form action="#" method="post" novalidate="novalidate">
@@ -204,7 +190,7 @@
               <button
                 type="button"
                 class="btn wrn-btn mt-2 rounded font-weight-bold"
-                style="background-color: #cb4561;"
+                style="background-color: #f35c00;"
               >
                 Search
               </button>

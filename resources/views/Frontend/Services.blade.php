@@ -4,9 +4,9 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="head text-center">
-          <h2>
-            <span style="color: #3084ca;">Our</span>
-            <span style="color: #cb4561;">Services</span>
+          <h2 style="border-bottom: 3px solid #f35c00;">
+            Our Services
+            <!-- <span style="color: #cb4561;">Services</span> -->
           </h2>
         </div>
       </div>

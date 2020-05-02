@@ -1,6 +1,6 @@
 @extends('Frontend.app')
 
-@section('hcontent')
+@section('content')
 <div class="container" style="padding-top: 100px;">
     <div class="row justify-content-center">
         <div class="col-md-8">

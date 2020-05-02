@@ -1,6 +1,6 @@
 @extends('Frontend.app')
 
-@section('hcontent')
+@section('content')
 @include('Frontend.menu')
 @include('Frontend.Banner')
 @include('Frontend.MaleFeatured')
